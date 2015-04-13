@@ -1,0 +1,15 @@
+{
+  "name": "bower_on_rails",
+  "version": "0.0.0",
+  "authors": [
+    "Ben Forrest <ben@silvabox.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
