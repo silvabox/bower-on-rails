@@ -16,7 +16,24 @@
 !/log/.keep
 /tmp
 
+# ignore contents of bower_components
 vendor/bower_components/*
+
+# enable jquery folder to be considered
 !vendor/bower_components/jquery
+# ignore contents of jquery folder
 vendor/bower_components/jquery/*
+# except dist
 !vendor/bower_components/jquery/dist
+
+
+# enable jquery folder to be considered
+!vendor/bower_components/bootstrap
+# ignore contents of bootstrap folder
+vendor/bower_components/bootstrap/*
+# except dist by uncommenting the following:
+# !vendor/bower_components/bootstrap/dist
+# or to use the source less:
+# !vendor/bower_components/bootstrap/less
+# !vendor/bower_components/bootstrap/js
+# !vendor/bower_components/bootstrap/fonts
